@@ -17,21 +17,13 @@
         "announcement_WqwjXg": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
+            "text": "Get 2 For -10% CODE:【JUST10】",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_WqwjXg",
-        "announcement-bar-0"
+        "announcement_WqwjXg"
       ],
       "settings": {
         "auto_rotate": false,
