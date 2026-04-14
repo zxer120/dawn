@@ -103,17 +103,16 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
+        "collection_8CLrYc": {
           "type": "collection",
           "settings": {
             "collection": ""
           }
         },
-        "product": {
-          "type": "product",
+        "collection-0": {
+          "type": "collection",
           "settings": {
-            "product": "",
-            "second_image": false
+            "collection": ""
           }
         },
         "collection-1": {
@@ -124,9 +123,87 @@
         }
       },
       "block_order": [
+        "collection_8CLrYc",
         "collection-0",
-        "product",
         "collection-1"
+      ],
+      "settings": {
+        "heading": "Shoes",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_X3mamG": {
+      "type": "collage",
+      "blocks": {
+        "collection_f9t6Ly": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product_9t8YN7": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_QEDc89": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_f9t6Ly",
+        "product_9t8YN7",
+        "collection_QEDc89"
+      ],
+      "settings": {
+        "heading": "Clothing & General Merchandise",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_zPxUmn": {
+      "type": "collage",
+      "blocks": {
+        "collection_nMk7DV": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product_xYeFDN": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_kzK7aK": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_nMk7DV",
+        "product_xYeFDN",
+        "collection_kzK7aK"
       ],
       "settings": {
         "heading": "Clothing & General Merchandise",
@@ -212,6 +289,8 @@
     "rich_text",
     "featured_collection",
     "collage",
+    "collage_X3mamG",
+    "collage_zPxUmn",
     "video",
     "multicolumn"
   ]
