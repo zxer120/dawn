@@ -9,40 +9,6 @@
  */
 {
   "sections": {
-    "newsletter_UmhgKJ": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_QNLNtG": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to get exclusive coupons",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_J3WrmJ": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Subscribe to our emails and get your coupon code instantly.</p>"
-          }
-        },
-        "email_form_qnkq7w": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_QNLNtG",
-        "paragraph_J3WrmJ",
-        "email_form_qnkq7w"
-      ],
-      "name": "t:sections.newsletter.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 16
-      }
-    },
     "image_banner_Vp34TB": {
       "type": "image-banner",
       "blocks": {
@@ -74,6 +40,40 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
+      }
+    },
+    "newsletter_UmhgKJ": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_QNLNtG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to get exclusive coupons",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_J3WrmJ": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Spend $30 or more, get 10% off the entire order！！！</p>"
+          }
+        },
+        "email_form_qnkq7w": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_QNLNtG",
+        "paragraph_J3WrmJ",
+        "email_form_qnkq7w"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 16
       }
     },
     "rich_text": {
@@ -415,8 +415,8 @@
     }
   },
   "order": [
-    "newsletter_UmhgKJ",
     "image_banner_Vp34TB",
+    "newsletter_UmhgKJ",
     "rich_text",
     "featured_collection",
     "collage",
