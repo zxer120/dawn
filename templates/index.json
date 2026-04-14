@@ -12,22 +12,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -41,14 +25,12 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
         "button"
       ],
       "custom_css": [],
       "settings": {
         "image_2": "shopify://shop_images/1221_9872c06d-6cc2-4b44-bf83-dbf47332ea8a.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 30,
         "image_height": "small",
         "image_behavior": "none",
         "desktop_content_position": "bottom-left",
@@ -103,7 +85,7 @@
         "columns_desktop": 4,
         "enable_desktop_slider": false,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
