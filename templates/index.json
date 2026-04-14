@@ -9,10 +9,10 @@
  */
 {
   "sections": {
-    "image_banner": {
+    "image_banner_Vp34TB": {
       "type": "image-banner",
       "blocks": {
-        "button": {
+        "buttons_C9B4te": {
           "type": "buttons",
           "settings": {
             "button_label_1": "All Products",
@@ -25,7 +25,7 @@
         }
       },
       "block_order": [
-        "button"
+        "buttons_C9B4te"
       ],
       "custom_css": [],
       "settings": {
@@ -76,7 +76,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "title": "Featured Products",
         "heading_size": "h1",
         "description": "",
@@ -176,8 +176,43 @@
         "padding_bottom": 36
       }
     },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "All Products",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "JUST SO SO SHOES",
+            "button_link_2": "shopify://collections/just-so-so-shoes",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/03_889bcbc2-c51c-4fb6-b280-329004bfebd0.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "top-right",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -245,11 +280,12 @@
     }
   },
   "order": [
-    "image_banner",
+    "image_banner_Vp34TB",
     "rich_text",
     "featured_collection",
     "collage",
     "collage_X3mamG",
+    "image_banner",
     "video",
     "multicolumn"
   ]
