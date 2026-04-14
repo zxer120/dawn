@@ -118,7 +118,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "men-women-shoes-分类-副本"
           }
         }
       },
@@ -134,24 +134,23 @@
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "collage_X3mamG": {
       "type": "collage",
       "blocks": {
+        "collection_4TMRfa": {
+          "type": "collection",
+          "settings": {
+            "collection": "fashion-outfits"
+          }
+        },
         "collection_f9t6Ly": {
           "type": "collection",
           "settings": {
             "collection": ""
-          }
-        },
-        "product_9t8YN7": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
           }
         },
         "collection_QEDc89": {
@@ -162,51 +161,12 @@
         }
       },
       "block_order": [
+        "collection_4TMRfa",
         "collection_f9t6Ly",
-        "product_9t8YN7",
         "collection_QEDc89"
       ],
       "settings": {
-        "heading": "Clothing & General Merchandise",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage_zPxUmn": {
-      "type": "collage",
-      "blocks": {
-        "collection_nMk7DV": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product_xYeFDN": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection_kzK7aK": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_nMk7DV",
-        "product_xYeFDN",
-        "collection_kzK7aK"
-      ],
-      "settings": {
-        "heading": "Clothing & General Merchandise",
+        "heading": "Fashion & General Merchandise",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -290,7 +250,6 @@
     "featured_collection",
     "collage",
     "collage_X3mamG",
-    "collage_zPxUmn",
     "video",
     "multicolumn"
   ]
